@@ -159,3 +159,8 @@ li > a {
     border: 1px solid white;
     align-self: center;
 }
+
+.footer {
+    padding: 12px;
+    background-color: #f4f1de;
+}
