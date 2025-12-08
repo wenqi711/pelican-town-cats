@@ -14,11 +14,38 @@ ul {
     list-style-type: none;
 }
 
-.header {
-    background-color: #2f3e46;
+button {
+    background-color: #bc6c25;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-content {
+    background-color:#2f3e46;
+    min-width: 80vw;
     color: white;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1vh 10vw 10vh;
+    gap: 10px;
+}
+
+.main-content > * {
+    border: 1px solid red;
+}
+
+.header {
+    background-color: #2f3e46;
+    color: white;
+    flex-shrink: 0;
+    flex-basis: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .header-logo {
@@ -35,4 +62,22 @@ ul {
 
 li > a {
     color: white;
+}
+
+.text {
+    flex: 1;
+    padding: 12px;
+}
+
+.main-content > img {
+    width: 400px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items:flex-start;
 }
