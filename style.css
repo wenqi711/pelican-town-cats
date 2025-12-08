@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1, h2, h3, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background-color: #2f3e46;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 12px;
+}
+
+.menu {
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+li > a {
+    color: white;
+}
