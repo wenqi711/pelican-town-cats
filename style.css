@@ -135,3 +135,27 @@ li > a {
     text-align: right;
     padding: 0 128px 128px;
 }
+
+.sign-up {
+    border: 5px solid #bc6c25;
+    border-radius: 8px;
+    background-color: #bc6c25;
+    margin: 128px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.sign-up > * {
+    color: white;
+}
+
+.sign-up > button {
+    border: 1px solid white;
+    align-self: center;
+}
