@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', serif;
     min-height: 100vh;
     margin: 0;
+    color:#2f3e46;
 }
 
 h1, h2, h3, ul, li, a {
@@ -19,6 +20,13 @@ button {
     color: white;
     border: none;
     padding: 8px 16px;
+    border-radius: 8px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #bc6c25;
     border-radius: 8px;
 }
 
@@ -62,6 +70,7 @@ button {
 
 li > a {
     color: white;
+    font-size: 18px;
 }
 
 .text {
@@ -80,4 +89,32 @@ li > a {
     flex-direction: column;
     gap: 8px;
     align-items:flex-start;
+}
+
+.section-one > h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 64px;
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 150px;
+}
+
+.image-text {
+    text-align: center;
+}
+
+.section-one {
+    margin-bottom: 64px;
 }
