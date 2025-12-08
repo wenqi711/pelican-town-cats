@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     margin: 0;
     background-color: #eae1d6;
@@ -85,6 +85,11 @@ li > a {
     flex-direction: column;
     gap: 8px;
     align-items:flex-start;
+    justify-content: center;
+}
+
+.small-text {
+    font-size: 10px;
 }
 
 .section-one > h2 {
@@ -155,6 +160,7 @@ li > a {
 }
 
 .footer {
+    font-size: 12px;
     padding: 12px;
     background-color: #3b2a2a;
     color: #eae1d6;
