@@ -1,10 +1,25 @@
+@font-face {
+    font-family: 'Stardew Valley';
+    src: url('./fonts/svthin.woff') format('woff'),
+         url('./fonts/svthin.woff2') format('woff2'),
+         url('./fonts/svthin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Stardew Valley';
+    src: url('./fonts/svbold.woff') format('woff'),
+         url('./fonts/svbold.woff2') format('woff2'),
+         url('./fonts/svbold.ttf') format('truetype');
+    font-weight: bold;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Stardew Valley','Roboto', sans-serif;
     min-height: 100vh;
     margin: 0;
     background-color: #eae1d6;
     color:#3b2a2a;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 h1, h2, h3, ul, li, a {
@@ -56,8 +71,8 @@ img {
 }
 
 .header-logo {
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 12px;
+    font-weight: bold;
     padding: 12px;
 }
 
@@ -68,12 +83,7 @@ img {
 
 li > a {
     color: #eae1d6;
-    font-size: 18px;
-}
-
-.text {
-    flex: 1;
-    padding: 12px;
+    font-size: 10px;
 }
 
 .main-content > img {
@@ -82,6 +92,8 @@ li > a {
 }
 
 .text {
+    flex: 1;
+    padding: 12px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -89,14 +101,18 @@ li > a {
     justify-content: center;
 }
 
+.text > h1 {
+    font-weight: 300;
+}
+
 .small-text {
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .section-one > h2 {
     text-align: center;
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 18px;
+    font-weight: bold;
     margin: 64px;
 }
 
@@ -127,13 +143,13 @@ li > a {
 }
 
 .quote {
-    font-size: 36px;
-    font-weight: 300;
+    font-size: 20px;
     padding: 128px 128px 0;
+    font-weight: 300;
 }
 
 .quote-by {
-    font-weight: 900;
+    font-weight: bold;
     text-align: right;
     padding: 0 128px 128px;
 }
@@ -149,7 +165,7 @@ li > a {
 }
 
 .call-to-action {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 900;
 }
 
@@ -167,7 +183,7 @@ li > a {
 }
 
 .footer {
-    font-size: 12px;
+    font-size: 10px;
     padding: 12px;
     background-color: #3b2a2a;
     color: #eae1d6;
