@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Stardew Valley';
-    src: url('./fonts/svthin.woff') format('woff'),
-         url('./fonts/svthin.woff2') format('woff2'),
-         url('./fonts/svthin.ttf') format('truetype');
+    src: url('./fonts/svthin/svthin.woff') format('woff'),
+         url('./fonts/svthin/svthin.woff2') format('woff2'),
+         url('./fonts/svthin/svthin.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Stardew Valley';
-    src: url('./fonts/svbold.woff') format('woff'),
-         url('./fonts/svbold.woff2') format('woff2'),
-         url('./fonts/svbold.ttf') format('truetype');
+    src: url('./fonts/svbold/svbold.woff') format('woff'),
+         url('./fonts/svbold/svbold.woff2') format('woff2'),
+         url('./fonts/svbold/svbold.ttf') format('truetype');
     font-weight: bold;
 }
 
